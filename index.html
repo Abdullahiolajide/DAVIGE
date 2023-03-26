@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+       
+        *{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+        }
+        body{
+            background-image: url(new-bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        section{
+            height: 60vh;
+            /* background-image: url(new-bg.jpg); */
+            background-repeat: no-repeat;
+            /* background-color: rgb(247, 247, 247); */
+            /* background-image: url(UI.jpg); */
+            /* opacity: 0.5; */
+        }
+        #header{
+            /* background-color: rgb(213, 230, 247); */
+            background-color: transparent;
+            /* box-shadow: 0 0 15px grey; */
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            font-size: 4vw;
+            word-spacing: 20px;
+            letter-spacing: 10px;
+        }
+        /* #fixed-header{
+            position: fixed;
+        } */
+        header{
+            /* background-color: aliceblue; */
+            background-color: transparent;
+
+            /* box-shadow: 0 0 10px rgb(202, 199, 199); */
+            margin: auto;
+        }
+        ul {
+            text-decoration: none;
+            list-style-type: none;
+            display: flex;
+            width: 100%;
+            padding: 0;
+            /* z-index: 999px; */
+            position: fixed;
+            bottom: 20;
+            /* background-color: aliceblue; */
+            background-color: transparent;
+
+            /* box-shadow: 0 0 10px rgb(202, 199, 199); */
+        }
+        ul li{
+            margin: auto;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            /* font-weight: bold; */
+            font-size: 150%;
+            /* color: rgb(255, 255, 255); */
+            width: 25%;
+            text-align: center;
+            padding: 10px;
+            /* height: 100vh; */
+        }
+        ul li:hover{
+            background-color: rgba(99, 53, 2, 0.774);
+            transition-duration: 0.3s;
+            color: #fff;
+        }
+        main{
+            /* margin-top: none; */
+            margin: 0 8%;
+            display: flex;
+        }
+        #about-rico{
+            font-size: 20px;
+            font-family:  Calibri;
+            word-spacing: 5px;
+            width: 80%;
+            margin: 5%;
+        }
+        #rico-img{
+            margin: 5%;
+        }
+        /* #fixed-header{
+            position: sticky;        
+        } */
+        /* @media screen {
+            main {
+                display: block;
+            }
+        } */
+        #big-text{
+            padding: 10%;
+            /* background-color: rgb(0, 204, 255); */
+            background-color: transparent;
+            display: flex;
+            color: white;
+            font-size: 4vw;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #writing{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 40%;
+        }
+        .ctl-button{
+            width: 50%;
+            border: 2px solid white;
+            border-radius: 3px;
+            background-color: transparent;
+            color: white;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            
+        }
+        .ctl-button:hover{
+            color: black;
+            background-color: white;
+            transition-duration: 0.5s;
+        }
+        #contact-buttons{
+            width: 30%;
+            text-align: right;
+        }
+        @media only screen and (max-width: 800px){
+            #header{
+                font-size: 7vw;
+                word-spacing: 2px;
+                letter-spacing: 2px;
+            }
+            ul{
+                /* margin-block-start: 0; */
+                margin-left: 0;
+            }
+            ul li{
+                padding: 8px;
+                font-size: 5vw;
+                margin: 0;
+            }
+            main{
+                display: block;
+            }
+            #writing{
+                font-size: 10vw;
+                width: 100%;
+                text-align: center;
+            }
+            #contact-buttons{
+                width: 100%;
+                text-align: center;
+                margin-top: 30px;
+            }
+            .ctl-button{
+                margin: 3px;
+            }
+            #big-text{
+                display: block;
+            }
+        }
+    </style>
+    
+    <header>
+        <nav id="header">
+            DAVIGE ENTERPRISE
+        </nav>
+        <nav id="fixed-header">
+            <ul>
+                <li>Home</li>
+                <li>contact </li>
+                <li>Work</li>
+                <li>Project</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="big-text">
+            <div id="writing">
+                DAVIGE Team Is Ready To Help
+                Just contact Us
+            </div>
+            <div id="contact-buttons">
+                <button class="ctl-button">Learn more</button><br>
+                <button class="ctl-button">Contact Us</button>
+            </div>
+        </div>
+        <h1 style="text-align: center; margin: 4% 0; font-weight: lighter; font-size: 4vw; margin-top: 170px;">DAVIGE TEAM</h1>
+<main>
+        <div id="about-rico"><h1>ABDULLAHI IGE</h1><h2 style="font-weight: lighter;">The Founder of DAVIGE</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint cumque quaerat pariatur,
+            excepturi nulla officia placeat, dolorem,
+            doloribus minima necessitatibus provident reiciendis nam aliquam aspernatur
+            aperiam. Magni fugit soluta eos!
+        </div>
+    <div id="rico-img">
+        <img src="rico.jpg" alt="" width="100%" height="">
+    </div>
+</main>
+
+<main>
+    <div id="rico-img">
+        <img src="rico.jpg" alt="" width="100%" height="">
+    </div>
+    <div id="about-rico"><h1>RICHARD DAVIES</h1><h2 style="font-weight: lighter;">The Founder of DAVIGE</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint cumque quaerat pariatur,
+        excepturi nulla officia placeat, dolorem,
+        doloribus minima necessitatibus provident reiciendis nam aliquam aspernatur
+        aperiam. Magni fugit soluta eos!
+    </div>
+</main>
+
+<div style="background-color: aliceblue; height: 30vh;">
+
+</div>
+    </section>
+
+
+        
+</body>
+</html>
