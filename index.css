@@ -23,8 +23,7 @@ section{
     padding: 10px;
     text-align: center;
     font-size: 4vw;
-    word-spacing: 20px;
-    letter-spacing: 10px;
+    letter-spacing: 70px;
 }
 /* #fixed-header{
     position: fixed;
@@ -133,23 +132,22 @@ main{
     font-weight: lighter;
 }
 .about-main:hover{
-    box-shadow: 0 0 15px rgb(185, 185, 185);
+    box-shadow: rgba(201, 201, 201, 0.993) 0px 30px 60px -12px ;
     transition-duration: 0.4s;
     border-radius: 4px;
 }
 .about-pic{
     margin: 0 23px 0 0;
-    width: 40%;
+    width: 28%;
     padding: 0;
 }
 @media only screen and (max-width: 800px){
     #header{
         font-size: 7vw;
         word-spacing: 2px;
-        letter-spacing: 2px;
+        letter-spacing: 30px;
     }
     ul{
-        /* margin-block-start: 0; */
         margin-left: 0;
     }
     ul li{
@@ -189,5 +187,10 @@ main{
     }
     .about-pic{
         width: 100%;
+    }
+}
+@media only screen and (max-width: 1060px),(min-width:750px){
+    .ctl-button{
+        width: 85%;
     }
 }
